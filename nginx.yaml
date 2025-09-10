@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   labels:
     run: nginx
+    another: test
     method: fromCode
   name: nginx-yaml
 spec:
